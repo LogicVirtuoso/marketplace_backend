@@ -1,36 +1,53 @@
-# Express Node.js Server Backend for Nitrility
+Nitrility License Marketplace
 
-This repository contains the code for an Express Node.js server backend for Nitrility. It provides a RESTful API for handling various requests and interacting with a database.
+Overview
 
-## Prerequisites
+Nitrility is the first marketplace dedicated to buying, selling, and verifying intellectual property (IP) licenses. Our platform ensures a secure, transparent, and efficient process for creators and businesses to manage their IP transactions.
 
-Before running the server, make sure you have the following installed:
+Features
 
-- Node.js (version 16.13.2)
-- npm (version 8.5.1)
-- MongoDB (version 6.0)
+Buy & Sell IP Licenses – A seamless platform for acquiring and monetizing intellectual property.
 
-## Getting Started
+Verification System – Ensures authenticity and transparency in IP transactions.
 
-1. Clone this repository: `git clone https://moonshotFactory@bitbucket.org/nitrility1/backend.git`
-2. Install dependencies: `npm install`
-3. Configure the server by updating the `.env` file with your database credentials and other configuration settings.
-4. Start the server: `npm start`
+Decentralized & Secure – Built with cutting-edge technologies to protect users and their assets.
 
-## Testing
+Partner Integrations – Works with Spotify, YouTube, Magic Wallet, and more.
 
-To run the tests, use the following command: `npm test`
+User-Friendly Interface – Optimized for an intuitive experience, ensuring smooth navigation and interactions.
 
-## Contributing
+Tech Stack
 
-If you would like to contribute to this project, please follow these steps:
+Frontend: React.js (initial UI inspired by Sound.xyz, with custom enhancements)
 
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make your changes and commit them: `git commit -m 'Add your feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Submit a pull request
+Backend: Node.js, Golang
 
-## License
+Database: PostgreSQL, DynamoDB
 
-This project is licensed under the [MIT License](LICENSE).
+Authentication: Magic Wallet, OAuth
+
+Hosting & Deployment: AWS, Vercel
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/LogicVirtuoso/nitrility_license_marketplace_backend.git cd nitrility-license-marketplace-backend
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run server
+
+Open your browser and navigate to http://localhost:5000
+
+Contribution
+
+We welcome contributions! Feel free to submit pull requests or report issues to help improve the platform.
+
+License
+
+This project is open-source and freely available to the community. Enjoy and innovate!
